@@ -1,3 +1,6 @@
+/* * {
+    border: 1px solid red;
+} */
 body {
     background-color: beige;
 }
@@ -9,12 +12,39 @@ a {
     margin: 5px;
     text-align: center;
 }
+a:hover {
+    background-color: darkgrey;
+    color: white;
+}
+
 nav {
     display: flex;
+    justify-content: center;
+}
+h1 {
+    font-size: 2em;
+    text-align: center;
+}
+img {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
 }
 /* #primary {
     background-color: aqua;
 } */
+p {
+    /* text-align: center; */
+    width: 60%;
+    margin: 10px auto;
+    padding: 10px;
+}
+footer p {
+    width: 100%;
+    text-align: center;
+    background-color: lightblue;
+    color: rgb(71, 69, 69);
+}
 .background {
     background-color: #ccc;
 }
