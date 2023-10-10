@@ -29,11 +29,15 @@ nav {
 h1 {
     font-size: 2em;
     text-align: center;
+    padding: 30px;
 }
 img {
     width: 60%;
     display: block;
-    margin: 0 auto;
+    margin: 60px auto;
+    border: 3px solid lightblue;
+    padding: 40px;
+    box-sizing: border-box;
 }
 /* #primary {
     background-color: aqua;
@@ -43,13 +47,16 @@ p {
     width: 60%;
     margin: 10px auto;
     padding: 10px;
+    box-sizing: border-box;
 }
+
 footer p {
     width: 100%;
     text-align: center;
     background-color: lightblue;
     color: rgb(71, 69, 69);
 }
+
 .background {
-    background-color: #ccc;
+    background-color: rgb(71, 69, 69);
 }
