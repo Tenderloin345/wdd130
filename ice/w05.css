@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #737373;
+}
+
+#headerimg {
+    width: 100%;
+}
+
+footer img {
+    width: 16.6%;
+    margin: 30px 80px auto;
+    /* padding: 10px; */
+    border: 20px solid #444444;
+    border-radius: 50%;
+}
