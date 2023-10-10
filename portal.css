@@ -38,6 +38,7 @@ img {
     border: 3px solid lightblue;
     padding: 40px;
     box-sizing: border-box;
+    border-radius: 5%;
 }
 /* #primary {
     background-color: aqua;
