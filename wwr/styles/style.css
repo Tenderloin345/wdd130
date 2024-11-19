@@ -99,3 +99,15 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }
+
+#active {
+    border: 3px solid white;
+}
+
+/* Styles specific to Contact Page */
+.contact-grid {   
+}
+
+.contact-grid img.card-img {
+    width: 100px;
+}
